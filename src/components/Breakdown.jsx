@@ -21,7 +21,7 @@ function Breakdown() {
 
     const submitRequest = async () => {
         try {
-            await axios.post('https://kwada.herokuapp.com/payments', {
+            await axios.post('https://kwada.herokuapp.com/', {
                 status: status,
                 amount: requestedAmount,
                 earning: earning,
